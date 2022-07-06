@@ -1,6 +1,6 @@
 Hi, this is Z&EDev
-I Like Open Source Code And Projects Because It Lets People Who Dont Want To Pay Or Refuse To Pay For Something Are Still Able To Use Them 
-And Because If You want To Makeb Sure The Program/Whatever Is safe You Can Just Look And See For Your Self
+I Like Open Source Code And Projects Because It Lets People Who Dont Want To Pay Or Refuse To Pay For Something Be Able To Use Them 
+And Because If You want To Make Sure The Program/Whatever Is safe You Can Just Look And See For Your Self
 Also When Projects Are Open Source It Allows For Much More Code And Components To Be Added Witch Would Not Have Happend Before
 Any Project I Put On Here Will Be Fully Open Source
 I Make Whatever I Want To Make Whenever I Want TO Make It If I No Longer Want To Then i Stop Id I Dont Know How To Make Something Then I Will Just Learn How To Do IT
@@ -19,7 +19,7 @@ I’m currently learning Well a Lot && Would like To Learn
 
 I Know a Little Bit About
 {
-      Operating Systems and Operating System Development
+	  Operating Systems and Operating System Development
       Visual Basic
       JavaScript
       Console Apps with Gui
