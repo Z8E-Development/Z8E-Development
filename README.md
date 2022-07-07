@@ -1,5 +1,5 @@
 Hi, this is Z&EDev
-I Make Whatever I Want To Make Whenever I Want To Make It If I No Longer Want To Then i Stop Id I Dont Know How To Make Something Then I Will Just Learn How To Do It
+I Make Whatever I Want To Make Whenever I Want To Make It If I No Longer Want To Then i Stop If I Dont Know How To Make Something Then I Will Just Learn How To Do It
 
 I Like Open Source Code And Projects Because It Lets People Who Dont Want To Pay Or Refuse To Pay For Something Be Able To Use Them 
 And Because If You want To Make Sure The Program/Whatever Is safe You Can Just Look And See For Your Self
