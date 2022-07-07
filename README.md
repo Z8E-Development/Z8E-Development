@@ -4,7 +4,6 @@ I Make Whatever I Want To Make Whenever I Want To Make It If I No Longer Want To
 I Like Open Source Code And Projects Because It Lets People Who Dont Want To Pay Or Refuse To Pay For Something Be Able To Use Them 
 And Because If You want To Make Sure The Program/Whatever Is safe You Can Just Look And See For Your Self
 Also When Projects Are Open Source It Allows For Much More Code And Components To Be Added Witch Would Not Have Happend Before
-Any Project I Put On Here Will Be Fully Open Source
 
 
 How to reach me YOU, SHALL NOT, PASS // Do You Get The , Thing
