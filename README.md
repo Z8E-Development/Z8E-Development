@@ -14,4 +14,4 @@ I Know a Little Bit About { Operating Systems and Operating System Development V
 
 I Know a Lot a Bit About { C# Python Desktop App Development Chatbots Making A Life Size Bipedal Robot Yah I Know Very specific Well Parrots And Dogs To I Guess But That Has Nothing To Do With Coding }
 
-You Know After Looking At a Lot Of Projects It Seems To Me They Might Be a Bit More Complicated Then They Need To Be Like C# Chatbots I Looked Some Up And They Had Like 50 Files I Am Working On a Persinal One And It Has 1 C# Source File And Im My opinion Its a Pretty Good And I Was Looking At Good Starter Repos To Add Code To And One Was For a File Explorer And It Had Like 10 Folders And Like 60-70 Files So Im Probebly Going To Try To Make a Much Simpler File Explorer And See How It Goes over all i have done some of it and the one thing is that i need to find out how to delete files on right click
+You Know After Looking At a Lot Of Projects It Seems To Me They Might Be a Bit More Complicated Then They Need To Be Like C# Chatbots I Looked Some Up And They Had Like 50 Files I Am Working On a Persinal One And It Has 1 C# Source File And Im My opinion Its a Pretty Good
