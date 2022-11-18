@@ -13,5 +13,3 @@ I’m currently learning Well a Lot && Would like To Learn { Fortran Java !JavaS
 I Know a Little Bit About { Operating Systems and Operating System Development Visual Basic JavaScript Console Apps with Gui Cosmos C# Raspberry Pi Projects }
 
 I Know a Lot a Bit About { C#, Python, Desktop App Development Chatbots Making A Life Size Bipedal Robot Yah I Know Very specific Well Parrots And Dogs To I Guess But That Has Nothing To Do With Coding }
-
-You Know After Looking At a Lot Of Projects It Seems To Me They Might Be a Bit More Complicated Then They Need To Be Like C# Chatbots I Looked Some Up And They Had Like 50 Files I Am Working On a Persinal One And It Has 1 C# Source File And Im My opinion Its a Pretty Good one
