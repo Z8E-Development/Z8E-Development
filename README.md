@@ -6,9 +6,9 @@ And Because If You want To Make Sure The Program/Whatever Is safe You Can Just L
 Also When Projects Are Open Source It Allows For Much More Code And Components To Be Added Witch Would Not Have Happend Before
 
 
-How to reach me YOU, SHALL NOT, PASS // Do You Get The , Thing
+How to reach me. well why would you need to?
 
-I’m currently learning Well a Lot && Would like To Learn { Fortran Java !JavaScript //C# Above 7.3 // Arduino Projects .net maui }
+I’m currently learning {x86 assembly, C#}
 
 I Know a Little Bit About { Operating Systems and Operating System Development Visual Basic JavaScript Console Apps with Gui Cosmos C# Raspberry Pi Projects }
 
