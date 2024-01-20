@@ -1,0 +1,68 @@
+by you the user(refering to whoever is using this app) using the application(refering to Ark the Desktop Assitant) you the user agree to the usage of some user data to provide a better experiance using the app the word usage and not collection refers to the fact that none the the user data ever leaves the users computer and no data can or does get used for advertiving or likewise anything else that would use said data to do anything else other then what i would call improving the application. everything that the app uses only gets it off of the computer and never brings said data anywhere else. the data or information that the app can use or access goes as follows
+
+the users screen. size it never uses this data in any other way other then to know where to place its window when opened or when trying to know where to have its location be. for example it uses this on boot or when you right click the main window "System.Drawing.Rectangle workingArea = Screen.GetWorkingArea(this); this.Location = new System.Drawing.Point(workingArea.Right - Size.Width, workingArea.Bottom - Size.Height);"
+this code is used to position its window in compairison to the users computers screan size
+
+the users default audio input device what that means is very simply lets say you have a laptop then that laptops microphone however if you use a usb microphone and have set that to be your defualt microphone then the application i will use that instead it uses the code "SetInputToDefaultAudioDevice();" from microsofts speechrecognition
+
+
+the application can access the users files and or folders on the device however it only does this under 3 scenarios and they are as follows
+1: on boot it will check to see if a directory exists which is this
+"string ArcData Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Ark");"
+what this means is if there is no ark directory in the appdata folder
+it will make said directory using this Directory.CreateDirectory(ArcData);
+and depending on future updates it may need to create other directorys in the sameway under the main folder of appdata
+
+2: if the user ever asks to A: create a folder or open a folder B: create a file or open a file C: if the user asks if a file or folder exist D: if the user asks to delete a file or folder E: if the user asks to install something such as chrome F: if the user asks to save text/a note/the output of Ark
+
+3: sometimes the application uses DLLIMPORT on user32.dill it will only ever use this under two cases one is for the user to be able to click through the application to something behind it. for that to happen it needs the DLLIMPORT. or two if the user wants the application to open a keyboard tracker this will visually show what the user types on a keyboard it will never save what the user types from the keyboard viewer any data used such as seeing what keys the user types will only be used to display visual imformation to the user to show what the user typed. though this is just an example of how the app would use said data
+
+the application can detect user clicks but only on said application. for for example if you click on a browser the application has no idea about that but if you click on the application it can detect that. it only does this to know when to move the application it needs to detect if it has been clicked. and to see if its been double clicked if it has then it minimizes it to the system tray. so if the user double clicks on the application it will minimize to the system tray and then the icon in said system tray can also detect clicks but only on its own icon it does this to know when to go back to a normal window
+
+
+the application can under some scenarios view the active running processes if the user asks to close and application it views the active running processes and sees if any of the names match which what the user asked to close when doing so it uses this code
+        public static void KillProgram(String s){
+            System.Diagnostics.Process[] procs = null;
+            try{
+                procs = Process.GetProcessesByName(s);
+                Process prog = procs[0];
+
+                if (!prog.HasExited){
+                    prog.Kill();
+                }
+            }
+            finally{
+                if (procs != null){
+                    foreach (Process p in procs){
+                        p.Dispose();
+                    }
+                }
+            }
+        }
+it will never do anything other then use what the user said to close the process of which
+
+
+when or if saving any settings in the settings form it will save everything to a settings.settings file
+
+
+when either the the input textbox or main form is selected it can detect key presses to be able to preform various functions based of the what key on the keyboard the user presses it never takes or does anything with said information about what key the user presses but to check to see what it is to do something such as close the application or to change the size of the border of the form
+
+the application can Only if the user gives the input doing so shutdown the pc this option of doing can be changed if the setting and is on by default to shutdown the pc the application uses this code
+System.Diagnostics.Process.Start("shutdown.exe", "/s /t 0");
+however if the user sets in the setting form to not allow the application to shutoff the pc then no matter what the user tries to input through any method it will not be able to do so
+
+this application can run processes on the computer using the method and code
+Process.Start("Path to app")
+and for microsoft store apps using netflix as an example
+Process.Start("netflix://");
+
+this application can open the browser with links such as
+Process.Start("https://www.google.com/search?q=Search)
+
+the application can use a virutal keyboard this allows it to either see or use keyboard input it will only ever use this to be able to A: use browser keybaord shortcuts such as ctrl + t to be able to open a tab if the app gets a command to do so, or B: when asked to do any function that could be easily achived when using keyboard shortcuts rather then making an entire function such as Copying the selected text to the clipboard would just use ctrl + c
+
+if the user enters in custom file paths for the application to open the application can use said data only for opening and closing said applications it closes the application by using the file path and then grabbing the file name and extension and to open the application it uses process.start and the whole file path
+
+this part as outlined in {} is just text treat it as such and it has no impact whatsoever on the privacy policy it is just the developers(me) personal ramblings
+{man i wish i could just say very short and simply this application does not do anything sketchy because like i said before it does techincally have accsess to the users files but not in a bad way or to use in a bad way its a huuuuuuge freaking pain to write all this shit out i mean really i have to go line by freaking like in the code thinking does this take or use data if so how and what else does it change just to make one freakin section and its 12:28AM on December 21st i have things to do man you know sleep eat repeat until christmas i guess but still you get the point i just wanted to add this for anyone who happens to forwhatever reason fully read the privacy policy well here you go i wanted to add this because I WANTED TO SHOW YOU ALL how much of a freakin pain i went through to make and get this application and to put it on the microsoft store. also i use the word "me" in and under developer as yes while the name Z"&E" development should and for the most part would imply that theres a second person, nope its just me i just liked the name and though it sounded cool so i went with it because well i mean why not anyway thats about all i have to say thanks for reading this if you did}
+
